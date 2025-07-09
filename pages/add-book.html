@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estante Virtual</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+            <div class="aolado">
+            <a href="../index.html">
+                <img src="../assets/images/logo.png" alt="Logo" class="logo" >
+            </a>      
+            <p class="txt_logo">E.V</p> 
+            </div>
+           
+        <buttom><a href="add-book.html">+</a></buttom>
+    </header>
+
+    <main>
+        <h1 class="titulo">Novo Livro</h1>
+
+        <form>
+            <label for="book-name">Nome do livro</label>
+            <input type="text" id="book-name" placeholder="coloque o título do livro">
+                 <label for="book-date">Data de lançamento do livro</label>
+            <input type="date" id="book-date" placeholder="coloque a data de lançamento do livro">
+            <label for="book-stars">Nota do Livro</label>
+              <select id="book-stars">
+            <option value="">Escolha uma opção</option>
+            <option value="1">★☆☆☆☆ - 1 Star</option>
+            <option value="2">★★☆☆☆ - 2 Stars</option>
+            <option value="3">★★★☆☆ - 3 Stars</option>
+            <option value="4">★★★★☆ - 4 Stars</option>
+            <option value="5">★★★★★ - 5 Stars</option>
+        </select>
+    <div class="review">
+    <label for="review-text">Minha resenha</label>
+    <textarea id="review-text" rows="5" placeholder="escreve oque achou do livro aqui..."></textarea>
+    </div>
+<button type="submit" class="submit-button">Adicionar</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy;direitos reservados Igor Brumana</p>
+    </footer>
+</body>
+</html>
